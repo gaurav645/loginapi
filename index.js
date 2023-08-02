@@ -73,7 +73,7 @@ mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
     console.log("Mongodb is not connected", err);
   });
 
-const port = 4500;
+const port = 9005;
 
 app.listen(port, () => {
   console.log("Server is running on port 4500");
