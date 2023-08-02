@@ -48,7 +48,7 @@ const username = 'ramboon422';
 const password = 'Hey@123';
 const clusterUrl = 'apicluster.kf6nlj1.mongodb.net';
 const databaseName = 'NodejsEasy';
-mongoose.set('strictQuery', false);
+
 
 const uri = `mongodb+srv://${encodeURIComponent(username)}:${encodeURIComponent(
   password
